@@ -1,0 +1,30 @@
+# --- .NET / C# ---
+backend/bin/
+backend/obj/
+*.user
+
+# --- Python ---
+worker/__pycache__/
+worker/**/__pycache__/
+*.pyc
+.venv/
+venv/
+worker/.venv/
+
+# --- Node / React ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# --- Data & secrets ---
+*.db
+*.sqlite
+data/
+.env
+.env.local
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
